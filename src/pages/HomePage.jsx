@@ -19,7 +19,7 @@ function HomePage() {
         const token = localStorage.getItem("token");
         if (!token) return;
 
-        const response = await axios.get("http://localhost:4000/api/user/me", {
+        const response = await axios.get("https://project-server-zvjt.onrender.com/api/user/me", {
           headers: { Authorization: `Bearer ${token}` },
         });
 

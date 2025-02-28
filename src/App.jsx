@@ -4,6 +4,7 @@ import Register from "./pages/Register";
 import CarRental from "./pages/CarRental";
 
 import CarDetails from "./pages/CarDetails";
+
 import HomePage from "./pages/HomePage";
 import AddCar from "./pages/AddCar";
 
